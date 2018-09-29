@@ -1,0 +1,51 @@
+使用 FMDB 和 FMDBMigrationManager升级数据库的操作创建一个.sql文件，在.sql文件里面编写升级数据库的代码（如下）将.sql文件拖进项目里面。
+
+
+关键之处：
+        1、创建 FMDBMigrationManager
+        FMDBMigrationManager *manager=[FMDBMigrationManager managerWithDatabaseAtPath:[FMDBSaveDataManager shareDataManage].sqlPath migrationsBundle:[NSBundle mainBundle]];
+
+        2、在数据库里面创建一个记录版本号的表 schema_migrations
+        BOOL createMigrationsTableResultState=NO;
+        NSError *createMigrationsTableError=nil;
+        if (!manager.hasMigrationsTable) {
+        createMigrationsTableResultState=[manager createMigrationsTable:&createMigrationsTableError];
+        }
+
+        3、数据迁移 UINT64_MAX 更新成最新版本号
+        BOOL migrateDatabaseResultState=NO;
+        NSError *migrateDatabaseError=nil;
+        migrateDatabaseResultState=[manager migrateDatabaseToVersion:UINT64_MAX progress:nil error:&migrateDatabaseError];
+
+
+详情：
+    https://www.aliyun.com/jiaocheng/372342.html
+    https://www.jianshu.com/p/66bc680c4360
+
+
+
+数据库升级语法：
+
+            /**创建一个表*/
+            CREATE TABLE 表名 (字段名 TEXT,字段名 TEXT);
+
+
+            /**给一个表添加一个字段*/
+            ALTER TABLE 表名 ADD 字段名 TEXT;
+
+
+            /**给一个表添加多个字段 用分号隔开*/
+            ALTER TABLE 表名 ADD 字段名 TEXT;
+            ALTER TABLE 表名 ADD 字段名 TEXT;
+            ALTER TABLE 表名 ADD 字段名 TEXT;
+            ALTER TABLE 表名 ADD 字段名 TEXT;
+
+
+            /**给一个表删除或者修改字段 1、先创建一个新表 在新表中删除或者修改字段名；2、将老表里面的字段对应的值转移到新表里；3、删除旧表*/
+            CREATE TABLE 新表名 (name TEXT,age TEXT);
+            INSERT INTO Wnew SELECT key,key1 FROM PJ;
+            DROP TABLE PJ;
+
+
+            /**给一个表重新命名*/
+            ALTER TABLE 旧表名 RENAME TO 新表名;
