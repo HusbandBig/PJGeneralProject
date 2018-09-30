@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0BC36F21607B1500F385D1 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC36721607B1500F385D1 /* JDStatusBarNotification.m */; };
+		7C0BC37021607B1500F385D1 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC36921607B1500F385D1 /* JDStatusBarView.m */; };
+		7C0BC37121607B1500F385D1 /* JDStatusBarLayoutMarginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC36A21607B1500F385D1 /* JDStatusBarLayoutMarginHelper.m */; };
+		7C0BC37221607B1500F385D1 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC36D21607B1500F385D1 /* JDStatusBarStyle.m */; };
+		7C0BC37821609DE500F385D1 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC37421609DE500F385D1 /* MGSwipeTableCell.m */; };
+		7C0BC37921609DE500F385D1 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC37721609DE500F385D1 /* MGSwipeButton.m */; };
+		7C0BC38E2160A7FB00F385D1 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC37D2160A7F900F385D1 /* DDFileLogger.m */; };
+		7C0BC38F2160A7FB00F385D1 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3812160A7FA00F385D1 /* DDOSLogger.m */; };
+		7C0BC3902160A7FB00F385D1 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3832160A7FA00F385D1 /* DDTTYLogger.m */; };
+		7C0BC3912160A7FB00F385D1 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3842160A7FA00F385D1 /* DDASLLogCapture.m */; };
+		7C0BC3922160A7FB00F385D1 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3852160A7FA00F385D1 /* DDAbstractDatabaseLogger.m */; };
+		7C0BC3932160A7FB00F385D1 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3892160A7FB00F385D1 /* DDLog.m */; };
+		7C0BC3942160A7FB00F385D1 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC38A2160A7FB00F385D1 /* DDASLLogger.m */; };
+		7C0BC3972160A7FF00F385D1 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3962160A7FF00F385D1 /* CLIColor.m */; };
+		7C0BC39F2160A81D00F385D1 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC3992160A81C00F385D1 /* DDContextFilterLogFormatter.m */; };
+		7C0BC3A02160A81D00F385D1 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC39A2160A81D00F385D1 /* DDDispatchQueueLogFormatter.m */; };
+		7C0BC3A12160A81D00F385D1 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BC39D2160A81D00F385D1 /* DDMultiFormatter.m */; };
 		7C0CD796215C84520064ECA7 /* DatabaseUpgrade.text in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD795215C84520064ECA7 /* DatabaseUpgrade.text */; };
 		7C0CD799215C89EA0064ECA7 /* FMDBSaveDataSuperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CD797215C89EA0064ECA7 /* FMDBSaveDataSuperModel.m */; };
 		7C0CD79F215CAC530064ECA7 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CD79D215CAC530064ECA7 /* RSA.m */; };
@@ -123,6 +140,45 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0BC36721607B1500F385D1 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		7C0BC36821607B1500F385D1 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		7C0BC36921607B1500F385D1 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		7C0BC36A21607B1500F385D1 /* JDStatusBarLayoutMarginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarLayoutMarginHelper.m; sourceTree = "<group>"; };
+		7C0BC36B21607B1500F385D1 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		7C0BC36C21607B1500F385D1 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		7C0BC36D21607B1500F385D1 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		7C0BC36E21607B1500F385D1 /* JDStatusBarLayoutMarginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarLayoutMarginHelper.h; sourceTree = "<group>"; };
+		7C0BC37421609DE500F385D1 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		7C0BC37521609DE500F385D1 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		7C0BC37621609DE500F385D1 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		7C0BC37721609DE500F385D1 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		7C0BC37B2160A7F900F385D1 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		7C0BC37C2160A7F900F385D1 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		7C0BC37D2160A7F900F385D1 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		7C0BC37E2160A7F900F385D1 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		7C0BC37F2160A7F900F385D1 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		7C0BC3802160A7FA00F385D1 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		7C0BC3812160A7FA00F385D1 /* DDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDOSLogger.m; sourceTree = "<group>"; };
+		7C0BC3822160A7FA00F385D1 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		7C0BC3832160A7FA00F385D1 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		7C0BC3842160A7FA00F385D1 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		7C0BC3852160A7FA00F385D1 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		7C0BC3862160A7FA00F385D1 /* DDOSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOSLogger.h; sourceTree = "<group>"; };
+		7C0BC3872160A7FA00F385D1 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		7C0BC3882160A7FB00F385D1 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		7C0BC3892160A7FB00F385D1 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		7C0BC38A2160A7FB00F385D1 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		7C0BC38B2160A7FB00F385D1 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		7C0BC38C2160A7FB00F385D1 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		7C0BC38D2160A7FB00F385D1 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		7C0BC3952160A7FE00F385D1 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		7C0BC3962160A7FF00F385D1 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		7C0BC3992160A81C00F385D1 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		7C0BC39A2160A81D00F385D1 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		7C0BC39B2160A81D00F385D1 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		7C0BC39C2160A81D00F385D1 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		7C0BC39D2160A81D00F385D1 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		7C0BC39E2160A81D00F385D1 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		7C0CD791215C81A00064ECA7 /* ThirdFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdFramework.h; sourceTree = "<group>"; };
 		7C0CD792215C83020064ECA7 /* ClassCaregory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassCaregory.h; sourceTree = "<group>"; };
 		7C0CD795215C84520064ECA7 /* DatabaseUpgrade.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DatabaseUpgrade.text; sourceTree = "<group>"; };
@@ -394,6 +450,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0BC36621607B1500F385D1 /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				7C0BC36B21607B1500F385D1 /* JDStatusBarNotification.h */,
+				7C0BC36721607B1500F385D1 /* JDStatusBarNotification.m */,
+				7C0BC36C21607B1500F385D1 /* JDStatusBarView.h */,
+				7C0BC36921607B1500F385D1 /* JDStatusBarView.m */,
+				7C0BC36821607B1500F385D1 /* JDStatusBarStyle.h */,
+				7C0BC36D21607B1500F385D1 /* JDStatusBarStyle.m */,
+				7C0BC36E21607B1500F385D1 /* JDStatusBarLayoutMarginHelper.h */,
+				7C0BC36A21607B1500F385D1 /* JDStatusBarLayoutMarginHelper.m */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		7C0BC37321609DE500F385D1 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				7C0BC37521609DE500F385D1 /* MGSwipeButton.h */,
+				7C0BC37721609DE500F385D1 /* MGSwipeButton.m */,
+				7C0BC37621609DE500F385D1 /* MGSwipeTableCell.h */,
+				7C0BC37421609DE500F385D1 /* MGSwipeTableCell.m */,
+			);
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		7C0BC37A2160A79C00F385D1 /* CocoaLumberJack */ = {
+			isa = PBXGroup;
+			children = (
+				7C0BC3952160A7FE00F385D1 /* CLIColor.h */,
+				7C0BC3962160A7FF00F385D1 /* CLIColor.m */,
+				7C0BC3822160A7FA00F385D1 /* CocoaLumberjack.h */,
+				7C0BC38B2160A7FB00F385D1 /* DDAbstractDatabaseLogger.h */,
+				7C0BC3852160A7FA00F385D1 /* DDAbstractDatabaseLogger.m */,
+				7C0BC37B2160A7F900F385D1 /* DDASLLogCapture.h */,
+				7C0BC3842160A7FA00F385D1 /* DDASLLogCapture.m */,
+				7C0BC38C2160A7FB00F385D1 /* DDASLLogger.h */,
+				7C0BC38A2160A7FB00F385D1 /* DDASLLogger.m */,
+				7C0BC37F2160A7F900F385D1 /* DDAssertMacros.h */,
+				7C0BC37E2160A7F900F385D1 /* DDFileLogger.h */,
+				7C0BC37D2160A7F900F385D1 /* DDFileLogger.m */,
+				7C0BC3802160A7FA00F385D1 /* DDLegacyMacros.h */,
+				7C0BC37C2160A7F900F385D1 /* DDLog.h */,
+				7C0BC3892160A7FB00F385D1 /* DDLog.m */,
+				7C0BC3882160A7FB00F385D1 /* DDLog+LOGV.h */,
+				7C0BC38D2160A7FB00F385D1 /* DDLogMacros.h */,
+				7C0BC3862160A7FA00F385D1 /* DDOSLogger.h */,
+				7C0BC3812160A7FA00F385D1 /* DDOSLogger.m */,
+				7C0BC3872160A7FA00F385D1 /* DDTTYLogger.h */,
+				7C0BC3832160A7FA00F385D1 /* DDTTYLogger.m */,
+				7C0BC3982160A81C00F385D1 /* Extensions */,
+			);
+			path = CocoaLumberJack;
+			sourceTree = "<group>";
+		};
+		7C0BC3982160A81C00F385D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C0BC39C2160A81D00F385D1 /* DDContextFilterLogFormatter.h */,
+				7C0BC3992160A81C00F385D1 /* DDContextFilterLogFormatter.m */,
+				7C0BC39E2160A81D00F385D1 /* DDDispatchQueueLogFormatter.h */,
+				7C0BC39A2160A81D00F385D1 /* DDDispatchQueueLogFormatter.m */,
+				7C0BC39B2160A81D00F385D1 /* DDMultiFormatter.h */,
+				7C0BC39D2160A81D00F385D1 /* DDMultiFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7C0CD7A0215CBC3D0064ECA7 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +585,9 @@
 			isa = PBXGroup;
 			children = (
 				7C0CD791215C81A00064ECA7 /* ThirdFramework.h */,
+				7C0BC37A2160A79C00F385D1 /* CocoaLumberJack */,
+				7C0BC37321609DE500F385D1 /* MGSwipeTableCell */,
+				7C0BC36621607B1500F385D1 /* JDStatusBarNotification */,
 				7C4A25F7215F5D5100ED0869 /* CMPopTipView */,
 				7C4A25AC215F593400ED0869 /* POP */,
 				7C4A25A8215F566B00ED0869 /* MBProgressHUD */,
@@ -960,6 +1087,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0CD7DB215CFF6D0064ECA7 /* PJNetworkRequestManager.m in Sources */,
+				7C0BC3902160A7FB00F385D1 /* DDTTYLogger.m in Sources */,
 				7C0CD79F215CAC530064ECA7 /* RSA.m in Sources */,
 				7C4A24E1215F49AE00ED0869 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
 				7C360383215B8B8D0048B89F /* NSDate+PJDateCaregory.m in Sources */,
@@ -969,19 +1097,27 @@
 				7C4A24E8215F49AE00ED0869 /* MTLModel.m in Sources */,
 				7C4A25ED215F593400ED0869 /* POPCustomAnimation.mm in Sources */,
 				7C4A24A3215F2F3000ED0869 /* NSButton+WebCache.m in Sources */,
+				7C0BC37221607B1500F385D1 /* JDStatusBarStyle.m in Sources */,
+				7C0BC3A02160A81D00F385D1 /* DDDispatchQueueLogFormatter.m in Sources */,
 				7C4A24AB215F2F3000ED0869 /* SDWebImageGIFCoder.m in Sources */,
 				7C4A2499215F2F3000ED0869 /* UIImage+ForceDecode.m in Sources */,
+				7C0BC3922160A7FB00F385D1 /* DDAbstractDatabaseLogger.m in Sources */,
 				7C4A24B9215F2FD600ED0869 /* FLAnimatedImage.m in Sources */,
+				7C0BC37121607B1500F385D1 /* JDStatusBarLayoutMarginHelper.m in Sources */,
 				7C4A2512215F4B3200ED0869 /* NSArray+MASAdditions.m in Sources */,
 				7C4A2496215F2F3000ED0869 /* SDWebImageManager.m in Sources */,
 				7C4A2494215F2F3000ED0869 /* UIImage+WebP.m in Sources */,
 				7C4A25EC215F593400ED0869 /* POPSpringAnimation.mm in Sources */,
 				7C36037C215B8B8D0048B89F /* PJTabBarController.m in Sources */,
 				7C360381215B8B8D0048B89F /* UIImage+PJImageCaregory.m in Sources */,
+				7C0BC3A12160A81D00F385D1 /* DDMultiFormatter.m in Sources */,
 				7C0CD7AF215CBC3D0064ECA7 /* AFURLResponseSerialization.m in Sources */,
 				7C4A249E215F2F3000ED0869 /* UIImage+MultiFormat.m in Sources */,
 				7C0CD799215C89EA0064ECA7 /* FMDBSaveDataSuperModel.m in Sources */,
+				7C0BC36F21607B1500F385D1 /* JDStatusBarNotification.m in Sources */,
+				7C0BC38E2160A7FB00F385D1 /* DDFileLogger.m in Sources */,
 				7C360386215B8B8D0048B89F /* UserCenter.m in Sources */,
+				7C0BC3972160A7FF00F385D1 /* CLIColor.m in Sources */,
 				7C4A25F2215F593400ED0869 /* POPCGUtils.mm in Sources */,
 				7C4A25E7215F593400ED0869 /* POPAnimationExtras.mm in Sources */,
 				7C360399215B8F2F0048B89F /* FMDatabase.m in Sources */,
@@ -1001,6 +1137,8 @@
 				7C4A25A1215F53F600ED0869 /* EXTScope.m in Sources */,
 				7C4A249D215F2F3000ED0869 /* UIImage+GIF.m in Sources */,
 				7C4A24A4215F2F3000ED0869 /* SDAnimatedImageRep.m in Sources */,
+				7C0BC37021607B1500F385D1 /* JDStatusBarView.m in Sources */,
+				7C0BC3932160A7FB00F385D1 /* DDLog.m in Sources */,
 				7C4A24E2215F49AE00ED0869 /* NSError+MTLModelException.m in Sources */,
 				7C0CD7B4215CBC3D0064ECA7 /* AFSecurityPolicy.m in Sources */,
 				7C4A25E9215F593400ED0869 /* POPAnimatableProperty.mm in Sources */,
@@ -1023,6 +1161,7 @@
 				7C4A24E9215F49AE00ED0869 /* NSDictionary+MTLMappingAdditions.m in Sources */,
 				7C4A25F6215F593400ED0869 /* POPVector.mm in Sources */,
 				7C4A249C215F2F3000ED0869 /* SDWebImageDownloader.m in Sources */,
+				7C0BC3942160A7FB00F385D1 /* DDASLLogger.m in Sources */,
 				7C360378215B8B8D0048B89F /* PJPushTool.m in Sources */,
 				7C4A24B0215F2F3000ED0869 /* UIButton+WebCache.m in Sources */,
 				7C4A2511215F4B3200ED0869 /* MASLayoutConstraint.m in Sources */,
@@ -1030,6 +1169,7 @@
 				7C0CD7B2215CBC3D0064ECA7 /* AFURLRequestSerialization.m in Sources */,
 				7C4A2495215F2F3000ED0869 /* MKAnnotationView+WebCache.m in Sources */,
 				7C4A2513215F4B3200ED0869 /* View+MASAdditions.m in Sources */,
+				7C0BC39F2160A81D00F385D1 /* DDContextFilterLogFormatter.m in Sources */,
 				7C4A2510215F4B3200ED0869 /* MASConstraintMaker.m in Sources */,
 				7C4A25EE215F593400ED0869 /* POPDecayAnimation.mm in Sources */,
 				7C4A24B8215F2FD600ED0869 /* FLAnimatedImageView.m in Sources */,
@@ -1039,7 +1179,9 @@
 				7C66C191215DBF8C00E83E1F /* PJNetworkStatusManager.m in Sources */,
 				7C4A24A0215F2F3000ED0869 /* SDWebImageCompat.m in Sources */,
 				7C4A25E8215F593400ED0869 /* POPAnimator.mm in Sources */,
+				7C0BC3912160A7FB00F385D1 /* DDASLLogCapture.m in Sources */,
 				7C4A25AB215F567100ED0869 /* MBProgressHUD.m in Sources */,
+				7C0BC37821609DE500F385D1 /* MGSwipeTableCell.m in Sources */,
 				7C4A249B215F2F3000ED0869 /* FLAnimatedImageView+WebCache.m in Sources */,
 				7C4A249A215F2F3000ED0869 /* SDWebImageCodersManager.m in Sources */,
 				7C4A25E5215F593400ED0869 /* TransformationMatrix.cpp in Sources */,
@@ -1047,10 +1189,12 @@
 				7C4A24AD215F2F3000ED0869 /* UIView+WebCacheOperation.m in Sources */,
 				7C4A24A1215F2F3000ED0869 /* SDWebImagePrefetcher.m in Sources */,
 				7C36039A215B8F2F0048B89F /* FMDatabasePool.m in Sources */,
+				7C0BC38F2160A7FB00F385D1 /* DDOSLogger.m in Sources */,
 				7C4A24A8215F2F3000ED0869 /* NSData+ImageContentType.m in Sources */,
 				7C4A24A9215F2F3000ED0869 /* UIImageView+WebCache.m in Sources */,
 				7C4A25F1215F593400ED0869 /* POPBasicAnimation.mm in Sources */,
 				7C4A24F0215F49AE00ED0869 /* MTLReflection.m in Sources */,
+				7C0BC37921609DE500F385D1 /* MGSwipeButton.m in Sources */,
 				7C4A25EA215F593400ED0869 /* POPAnimationRuntime.mm in Sources */,
 				7C360384215B8B8D0048B89F /* NSString+PJStringCaregory.m in Sources */,
 				7C4A24E7215F49AE00ED0869 /* NSArray+MTLManipulationAdditions.m in Sources */,

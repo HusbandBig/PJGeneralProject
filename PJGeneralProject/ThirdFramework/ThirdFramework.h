@@ -41,5 +41,16 @@
 /**提示*/
 #import "CMPopTipView.h"
 
+/**弹窗*/
+#import "JDStatusBarNotification.h"
+
+/**左右滑动的Cell*/
+#import "MGSwipeTableCell.h"
+
+/**打印日志*/
+#import "CocoaLumberjack.h"
+
+
+
 
 #endif /* ThirdFramework_h */
