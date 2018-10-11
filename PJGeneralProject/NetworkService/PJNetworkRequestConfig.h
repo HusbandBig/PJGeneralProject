@@ -15,9 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 typedef NS_ENUM(NSInteger, PJRequestSerializerType) {
     
-    PJRequestSerializerTypeHTTP,
-    PJRequestSerializerTypeJSON,
-    PJRequestSerializerTypePropertyList
+    PJRequestSerializerType_HTTP = 0,
+    PJRequestSerializerType_JSON,
+    PJRequestSerializerType_PropertyList
     
 };
 
@@ -26,14 +26,12 @@ typedef NS_ENUM(NSInteger, PJRequestSerializerType) {
  */
 typedef NS_ENUM(NSInteger, PJResponseSerializerType) {
  
-    PJResponseSerializerTypeHTTP,
-    PJResponseSerializerTypeJSON,
-    PJResponseSerializerTypeXMLParser,
-    PJResponseSerializerTypePropertyList
-
+    PJResponseSerializerType_HTTP = -1,
+    PJResponseSerializerType_JSON,
+    PJResponseSerializerType_XMLParser,
+    PJResponseSerializerType_PropertyList
+    
 };
-
-
 
 @interface PJNetworkRequestConfig : NSObject
 

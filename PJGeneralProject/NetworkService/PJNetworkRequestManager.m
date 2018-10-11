@@ -25,7 +25,7 @@
    
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -60,7 +60,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -100,7 +100,7 @@
 
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
        
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -143,7 +143,7 @@
 - (NSURLSessionDataTask *)HEAD:(PJNetworkRequestConfig *)requestConfig success:(PJHEADNetworkRequestSuccess)success failure:(PJHEADNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -177,7 +177,7 @@
 - (NSURLSessionDataTask *)HEAD:(PJNetworkRequestConfig *)requestConfig headers:(NSDictionary <NSString *, NSString *> *)headers success:(PJHEADNetworkRequestSuccess)success failure:(PJHEADNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -217,7 +217,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -252,7 +252,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
        
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -291,7 +291,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -332,7 +332,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -377,7 +377,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
        
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -416,7 +416,7 @@
     
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
      
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -465,7 +465,7 @@
 - (NSURLSessionDataTask *)PUT:(PJNetworkRequestConfig *)requestConfig success:(PJPUTNetworkRequestSuccess)success failure:(PJPUTNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -499,7 +499,7 @@
 - (NSURLSessionDataTask *)PUT:(PJNetworkRequestConfig *)requestConfig headers:(NSDictionary <NSString *, NSString *> *)headers success:(PJPUTNetworkRequestSuccess)success failure:(PJPUTNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
        
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -538,7 +538,7 @@
 - (NSURLSessionDataTask *)PATCH:(PJNetworkRequestConfig *)requestConfig success:(PJPATCHNetworkRequestSuccess)success failure:(PJPATCHNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -572,7 +572,7 @@
 - (NSURLSessionDataTask *)PATCH:(PJNetworkRequestConfig *)requestConfig headers:(NSDictionary <NSString *, NSString *> *)headers success:(PJPATCHNetworkRequestSuccess)success failure:(PJPATCHNetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -611,7 +611,7 @@
 - (NSURLSessionDataTask *)DELETE:(PJNetworkRequestConfig *)requestConfig success:(PJDELETENetworkRequestSuccess)success failure:(PJDELETENetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
        
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -645,7 +645,7 @@
 - (NSURLSessionDataTask *)DELETE:(PJNetworkRequestConfig *)requestConfig headers:(NSDictionary <NSString *, NSString *> *)headers success:(PJDELETENetworkRequestSuccess)success failure:(PJDELETENetworkRequestFailure)failure{
     if ([PJNetworkStatusManager isNetworkEnable]) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        config.timeoutIntervalForRequest = requestConfig.requestTimeout;
+        config.timeoutIntervalForRequest = requestConfig.requestTimeout?requestConfig.requestTimeout:20;
         AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
         
         [self setRequestSerializerWithRequestConfig:requestConfig sessionManager:manager];
@@ -682,13 +682,13 @@
 #pragma mark - 设置请求数据序列化
 - (void)setRequestSerializerWithRequestConfig:(PJNetworkRequestConfig *)requestConfig sessionManager:(AFHTTPSessionManager *)manager{
     switch (requestConfig.requestSerializer) {
-        case PJRequestSerializerTypeHTTP:
+        case PJRequestSerializerType_HTTP:
             manager.requestSerializer = [AFHTTPRequestSerializer serializer];
             break;
-        case PJRequestSerializerTypeJSON:
+        case PJRequestSerializerType_JSON:
             manager.requestSerializer=[AFJSONRequestSerializer serializer];
             break;
-        case PJRequestSerializerTypePropertyList:
+        case PJRequestSerializerType_PropertyList:
             manager.requestSerializer=[AFPropertyListRequestSerializer serializer];
             break;
         default:
@@ -698,16 +698,16 @@
 #pragma mark - 设置返回数据序列化
 - (void)setResponseSerializerWithRequestConfig:(PJNetworkRequestConfig *)requestConfig sessionManager:(AFHTTPSessionManager *)manager{
     switch (requestConfig.responseSerializer) {
-        case PJResponseSerializerTypeHTTP:
+        case PJResponseSerializerType_HTTP:
             manager.responseSerializer = [AFHTTPResponseSerializer serializer];
             break;
-        case PJResponseSerializerTypeJSON:
+        case PJResponseSerializerType_JSON:
             manager.responseSerializer = [AFJSONResponseSerializer serializer];
             break;
-        case PJResponseSerializerTypeXMLParser:
+        case PJResponseSerializerType_XMLParser:
             manager.responseSerializer = [AFXMLParserResponseSerializer serializer];
             break;
-        case PJResponseSerializerTypePropertyList:
+        case PJResponseSerializerType_PropertyList:
             manager.responseSerializer = [AFPropertyListResponseSerializer serializer];
             break;
         default:
