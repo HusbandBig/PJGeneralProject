@@ -11,12 +11,8 @@
 @implementation PJNetworkRequestConfig
 
 + (instancetype)config{
-    
     PJNetworkRequestConfig *config = [[PJNetworkRequestConfig alloc] init];
-   
     return config;
-    
-    
 }
 
 

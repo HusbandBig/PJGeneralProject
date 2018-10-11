@@ -70,8 +70,8 @@ typedef enum {
 /**
  修改数据
  */
-
 - (void)changeDataFromTable:(NSString *)tableName changeData:(FMDBSaveDataSuperModel *)model;
+
 /**
  获取所有数据
  */
